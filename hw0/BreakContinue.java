@@ -1,6 +1,8 @@
 public class BreakContinue {
   public static void windowPosSum(int[] a, int n) {
     /** your code here */ 
+    
+    // a.length - 1 means jump for the last index
     for(int i = 0; i < a.length - 1 ; i++) {
 
       if(a[i] < 0) {
